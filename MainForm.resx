@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 196</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 426</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LargeNameApp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LargeNameApp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Bold</value>
+  </data>
+  <data name="LargeNameApp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 9</value>
+  </data>
+  <data name="LargeNameApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 36</value>
+  </data>
+  <data name="LargeNameApp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LargeNameApp.Text" xml:space="preserve">
+    <value>Мировое время</value>
+  </data>
+  <data name="&gt;&gt;LargeNameApp.Name" xml:space="preserve">
+    <value>LargeNameApp</value>
+  </data>
+  <data name="&gt;&gt;LargeNameApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LargeNameApp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LargeNameApp.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lab_MoscowLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lab_MoscowLargeTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_MoscowLargeTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 72pt</value>
+  </data>
+  <data name="lab_MoscowLargeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-14, 79</value>
+  </data>
+  <data name="lab_MoscowLargeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 108</value>
+  </data>
+  <data name="lab_MoscowLargeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lab_MoscowLargeTime.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowLargeTime.Name" xml:space="preserve">
+    <value>lab_MoscowLargeTime</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowLargeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowLargeTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowLargeTime.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cb_CityList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="cb_CityList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 593</value>
+  </data>
+  <data name="cb_CityList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 28</value>
+  </data>
+  <data name="cb_CityList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cb_CityList.Text" xml:space="preserve">
+    <value>Выберите город</value>
+  </data>
+  <data name="&gt;&gt;cb_CityList.Name" xml:space="preserve">
+    <value>cb_CityList</value>
+  </data>
+  <data name="&gt;&gt;cb_CityList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_CityList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_CityList.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btn_AddCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 627</value>
+  </data>
+  <data name="btn_AddCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 23</value>
+  </data>
+  <data name="btn_AddCity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_AddCity.Text" xml:space="preserve">
+    <value>Добавить город</value>
+  </data>
+  <data name="&gt;&gt;btn_AddCity.Name" xml:space="preserve">
+    <value>btn_AddCity</value>
+  </data>
+  <data name="&gt;&gt;btn_AddCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_AddCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_AddCity.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cb_SetHours.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="cb_SetHours.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_SetHours.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_SetHours.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cb_SetHours.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cb_SetHours.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cb_SetHours.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_SetHours.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cb_SetHours.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cb_SetHours.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cb_SetHours.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cb_SetHours.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cb_SetHours.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cb_SetHours.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cb_SetHours.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cb_SetHours.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cb_SetHours.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cb_SetHours.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cb_SetHours.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cb_SetHours.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cb_SetHours.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cb_SetHours.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cb_SetHours.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cb_SetHours.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cb_SetHours.Items23" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="cb_SetHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 720</value>
+  </data>
+  <data name="cb_SetHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 33</value>
+  </data>
+  <data name="cb_SetHours.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cb_SetHours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Name" xml:space="preserve">
+    <value>cb_SetHours</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lab_Hours.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_Hours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 704</value>
+  </data>
+  <data name="lab_Hours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lab_Hours.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lab_Hours.Text" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="lab_Hours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Name" xml:space="preserve">
+    <value>lab_Hours</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lab_enterTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_enterTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lab_enterTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 720</value>
+  </data>
+  <data name="lab_enterTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 24</value>
+  </data>
+  <data name="lab_enterTime.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lab_enterTime.Text" xml:space="preserve">
+    <value>Часов в этом городе:</value>
+  </data>
+  <data name="lab_enterTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Name" xml:space="preserve">
+    <value>lab_enterTime</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lab_enterCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_enterCity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lab_enterCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 664</value>
+  </data>
+  <data name="lab_enterCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="lab_enterCity.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lab_enterCity.Text" xml:space="preserve">
+    <value>Введите город:</value>
+  </data>
+  <data name="lab_enterCity.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Name" xml:space="preserve">
+    <value>lab_enterCity</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tb_CityName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="tb_CityName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 661</value>
+  </data>
+  <data name="tb_CityName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 29</value>
+  </data>
+  <data name="tb_CityName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tb_CityName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Name" xml:space="preserve">
+    <value>tb_CityName</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btn_Complet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="btn_Complet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 759</value>
+  </data>
+  <data name="btn_Complet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 5</value>
+  </data>
+  <data name="btn_Complet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="btn_Complet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 39</value>
+  </data>
+  <data name="btn_Complet.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btn_Complet.Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="btn_Complet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Name" xml:space="preserve">
+    <value>btn_Complet</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lab_MoscowName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_MoscowName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt</value>
+  </data>
+  <data name="lab_MoscowName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 47</value>
+  </data>
+  <data name="lab_MoscowName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 36</value>
+  </data>
+  <data name="lab_MoscowName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lab_MoscowName.Text" xml:space="preserve">
+    <value>Москва</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowName.Name" xml:space="preserve">
+    <value>lab_MoscowName</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_MoscowName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lab_LondonName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_LondonName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt</value>
+  </data>
+  <data name="lab_LondonName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lab_LondonName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 179</value>
+  </data>
+  <data name="lab_LondonName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 36</value>
+  </data>
+  <data name="lab_LondonName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lab_LondonName.Text" xml:space="preserve">
+    <value>Лондон</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonName.Name" xml:space="preserve">
+    <value>lab_LondonName</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lab_LondonLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lab_LondonLargeTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_LondonLargeTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 72pt</value>
+  </data>
+  <data name="lab_LondonLargeTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lab_LondonLargeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-14, 201</value>
+  </data>
+  <data name="lab_LondonLargeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 108</value>
+  </data>
+  <data name="lab_LondonLargeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lab_LondonLargeTime.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonLargeTime.Name" xml:space="preserve">
+    <value>lab_LondonLargeTime</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonLargeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonLargeTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_LondonLargeTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Lab_VladivostokName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lab_VladivostokName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt</value>
+  </data>
+  <data name="Lab_VladivostokName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lab_VladivostokName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 309</value>
+  </data>
+  <data name="Lab_VladivostokName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 36</value>
+  </data>
+  <data name="Lab_VladivostokName.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Lab_VladivostokName.Text" xml:space="preserve">
+    <value>Владивосток</value>
+  </data>
+  <data name="&gt;&gt;Lab_VladivostokName.Name" xml:space="preserve">
+    <value>Lab_VladivostokName</value>
+  </data>
+  <data name="&gt;&gt;Lab_VladivostokName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lab_VladivostokName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lab_VladivostokName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 72pt</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-14, 336</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 108</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lab_VladovostokLagreTime.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="&gt;&gt;lab_VladovostokLagreTime.Name" xml:space="preserve">
+    <value>lab_VladovostokLagreTime</value>
+  </data>
+  <data name="&gt;&gt;lab_VladovostokLagreTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_VladovostokLagreTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_VladovostokLagreTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lab_NewCityName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_NewCityName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt</value>
+  </data>
+  <data name="lab_NewCityName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lab_NewCityName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 428</value>
+  </data>
+  <data name="lab_NewCityName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 36</value>
+  </data>
+  <data name="lab_NewCityName.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lab_NewCityName.Text" xml:space="preserve">
+    <value>Новый город</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCityName.Name" xml:space="preserve">
+    <value>lab_NewCityName</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCityName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCityName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCityName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 72pt</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-14, 455</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 108</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lab_NewCItyLargeTime.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCItyLargeTime.Name" xml:space="preserve">
+    <value>lab_NewCItyLargeTime</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCItyLargeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCItyLargeTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_NewCItyLargeTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Items" xml:space="preserve">
+    <value>1 Секунда</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Items1" xml:space="preserve">
+    <value>10 Секунд</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Items2" xml:space="preserve">
+    <value>30 Секунд</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 593</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 28</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cb_SelectIntervalUpdate.Text" xml:space="preserve">
+    <value>Выберите интервал</value>
+  </data>
+  <data name="&gt;&gt;cb_SelectIntervalUpdate.Name" xml:space="preserve">
+    <value>cb_SelectIntervalUpdate</value>
+  </data>
+  <data name="&gt;&gt;cb_SelectIntervalUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_SelectIntervalUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_SelectIntervalUpdate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStopTImer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopTImer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 566</value>
+  </data>
+  <data name="btnStopTImer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="btnStopTImer.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnStopTImer.Text" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+  <data name="&gt;&gt;btnStopTImer.Name" xml:space="preserve">
+    <value>btnStopTImer</value>
+  </data>
+  <data name="&gt;&gt;btnStopTImer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopTImer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStopTImer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStartTImer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStartTImer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 566</value>
+  </data>
+  <data name="btnStartTImer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 23</value>
+  </data>
+  <data name="btnStartTImer.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnStartTImer.Text" xml:space="preserve">
+    <value>Включить </value>
+  </data>
+  <data name="&gt;&gt;btnStartTImer.Name" xml:space="preserve">
+    <value>btnStartTImer</value>
+  </data>
+  <data name="&gt;&gt;btnStartTImer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartTImer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStartTImer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_StopClockTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_StopClockTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 48</value>
+  </data>
+  <data name="btn_StopClockTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 35</value>
+  </data>
+  <data name="btn_StopClockTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btn_StopClockTimer.Text" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+  <data name="&gt;&gt;btn_StopClockTimer.Name" xml:space="preserve">
+    <value>btn_StopClockTimer</value>
+  </data>
+  <data name="&gt;&gt;btn_StopClockTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_StopClockTimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_StopClockTimer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_StartClockTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_StartClockTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 53</value>
+  </data>
+  <data name="btn_StartClockTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 30</value>
+  </data>
+  <data name="btn_StartClockTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btn_StartClockTimer.Text" xml:space="preserve">
+    <value>Включить </value>
+  </data>
+  <data name="&gt;&gt;btn_StartClockTimer.Name" xml:space="preserve">
+    <value>btn_StartClockTimer</value>
+  </data>
+  <data name="&gt;&gt;btn_StartClockTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_StartClockTimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_StartClockTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 801</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Главное окно</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
