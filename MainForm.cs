@@ -1,27 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ClockCheker
 {
     public partial class MainForm : Form
     {
+        Clock defaultClock = new Clock();
         Clock clock = new Clock();
         List<string> CityesNamesList;
         TimeSpan SlectNewTime;
-        Timer timer = new Timer()
-        {
-            Interval = 1000,
-            Enabled = false
-            
-        };
-      
         private string CityName;
      
         public MainForm()
@@ -29,13 +17,12 @@ namespace ClockCheker
             InitializeComponent();
             
             CityesNamesList = clock.GetCityNamesList();
-          
-        
-        clock.SeconTick += SetTimeTick;
-        timer.Tick += SetSelectTimerTick;
+            defaultClock.SeconTick += SetTimeTick;
+            clock.SeconTick += SetSelectTimerTick;
 
         }
-        private void SetSelectTimerTick(object sender, EventArgs e)
+
+        private void SetSelectTimerTick()
         {
             if(CityName != null)
             {
@@ -44,20 +31,19 @@ namespace ClockCheker
             }
             
         }
+
         private void SetTimeTick()
         {
             CityesNamesList = clock.GetCityNamesList();
 
-            TimeSpan MoscowTime = clock.GetTimeCityNow("Москва");
+            TimeSpan MoscowTime = defaultClock.GetTimeCityNow("Москва");
             lab_MoscowLargeTime.Text = MoscowTime.Hours.ToString() +":"+ MoscowTime.Minutes.ToString()+":"+ MoscowTime.Seconds.ToString();
 
-            TimeSpan LondonTime = clock.GetTimeCityNow("Лондон");
+            TimeSpan LondonTime = defaultClock.GetTimeCityNow("Лондон");
             lab_LondonLargeTime.Text = LondonTime.Hours.ToString() + ":" + LondonTime.Minutes.ToString() + ":" + LondonTime.Seconds.ToString();
 
-            TimeSpan VladivostokTime = clock.GetTimeCityNow("Владивосток");
+            TimeSpan VladivostokTime = defaultClock.GetTimeCityNow("Владивосток");
             lab_VladovostokLagreTime.Text = VladivostokTime.Hours.ToString() + ":" + VladivostokTime.Minutes.ToString() + ":" + VladivostokTime.Seconds.ToString();
-
-           
 
             if (cb_CityList.Items.Count != CityesNamesList.Count)
             {
@@ -70,17 +56,20 @@ namespace ClockCheker
         {
             cb_CityList.DataBindings.Clear();
             cb_CityList.DataSource = CityesNamesList;
+
         }
+
         public void SetLableTime(TimeSpan time,string CityName) 
         {
             lab_NewCityName.Text = CityName;
             lab_NewCItyLargeTime.Text = time.Hours.ToString() + ":" + time.Minutes.ToString() + ":" + time.Seconds.ToString();
+
         }
- 
-      
+
         private void cb_CityList_SelectedIndexChanged(object sender, EventArgs e)
         {
             CityName = cb_CityList.SelectedItem.ToString();
+
         }
 
         private void btn_AddCity_Click(object sender, EventArgs e)
@@ -92,6 +81,7 @@ namespace ClockCheker
         private void cb_SetHours_SelectedIndexChanged(object sender, EventArgs e)
         {
             SlectNewTime = new TimeSpan(Convert.ToInt32(cb_SetHours.SelectedItem), 0, 0);
+
         }
 
         private void btn_Complet_Click(object sender, EventArgs e)
@@ -112,7 +102,9 @@ namespace ClockCheker
                 clock.AddCity(tb_CityName.Text, SlectNewTime);
                 SetVisibleFalseFoNewElem();
             }
+
         }
+
         private void SetVisibleTrueFoNewElem()
         {
             tb_CityName.Visible = true;
@@ -134,37 +126,21 @@ namespace ClockCheker
             this.Height = 690;
         }
 
-
         private void MainForm_Load(object sender, EventArgs e)
         {
             this.Height = 690;
-            clock.AddCity("Москва", new TimeSpan(0, 0, 0));
-            clock.AddCity("Лондон", new TimeSpan(22, 0, 0));
-            clock.AddCity("Владивосток", new TimeSpan(7, 0, 0));
+            defaultClock.AddCity("Москва", new TimeSpan(0, 0, 0));
+            defaultClock.AddCity("Лондон", new TimeSpan(22, 0, 0));
+            defaultClock.AddCity("Владивосток", new TimeSpan(7, 0, 0));
         }
 
-        private void cb_SelectIntervalUpdate_SelectedIndexChanged(object sender, EventArgs e)
+        private void btn_StartClockTimer_Click(object sender, EventArgs e) => defaultClock.StartTimer();
+        private void btn_StopClockTimer_Click(object sender, EventArgs e) => defaultClock.StopTimer();
+        private void btnStopTimer_click(object sender, EventArgs e) => clock.StopTimer();
+        private void btnStartTimer_Click(object sender, EventArgs e) => clock.StartTimer();
+        private void numeric_SelectSecondInterval_ValueChanged(object sender, EventArgs e)
         {
-            if(cb_SelectIntervalUpdate.SelectedIndex == 0)
-            {
-                timer.Interval = 1000;
-            }else if(cb_SelectIntervalUpdate.SelectedIndex == 1)
-            {
-                timer.Interval = 10000;
-            }else if(cb_SelectIntervalUpdate.SelectedIndex == 2)
-            {
-                timer.Interval = 30000;
-            }
+            clock.SetTimerInterval(Convert.ToInt32(numeric_SelectSecondInterval.Value));
         }
-
-        private void btn_StartClockTimer_Click(object sender, EventArgs e) => clock.StartTimer();
-
-
-        private void btn_StopClockTimer_Click(object sender, EventArgs e) => clock.StopTimer();
-        private void btnStopTimer_click(object sender, EventArgs e) => timer.Stop();
-
-        private void btnStartTimer_Click(object sender, EventArgs e) => timer.Start();
-
-    
     }
 }

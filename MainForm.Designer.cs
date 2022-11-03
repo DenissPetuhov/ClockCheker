@@ -48,12 +48,14 @@
             this.lab_VladovostokLagreTime = new System.Windows.Forms.Label();
             this.lab_NewCityName = new System.Windows.Forms.Label();
             this.lab_NewCItyLargeTime = new System.Windows.Forms.Label();
-            this.cb_SelectIntervalUpdate = new System.Windows.Forms.ComboBox();
             this.btnStopTImer = new System.Windows.Forms.Button();
             this.btnStartTImer = new System.Windows.Forms.Button();
             this.btn_StopClockTimer = new System.Windows.Forms.Button();
             this.btn_StartClockTimer = new System.Windows.Forms.Button();
+            this.numeric_SelectSecondInterval = new System.Windows.Forms.NumericUpDown();
+            this.lab_SelectSecondIntervalTime = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_SelectSecondInterval)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -63,8 +65,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.panel2);
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Name = "panel1";
             // 
             // LargeNameApp
@@ -185,17 +187,6 @@
             resources.ApplyResources(this.lab_NewCItyLargeTime, "lab_NewCItyLargeTime");
             this.lab_NewCItyLargeTime.Name = "lab_NewCItyLargeTime";
             // 
-            // cb_SelectIntervalUpdate
-            // 
-            resources.ApplyResources(this.cb_SelectIntervalUpdate, "cb_SelectIntervalUpdate");
-            this.cb_SelectIntervalUpdate.FormattingEnabled = true;
-            this.cb_SelectIntervalUpdate.Items.AddRange(new object[] {
-            resources.GetString("cb_SelectIntervalUpdate.Items"),
-            resources.GetString("cb_SelectIntervalUpdate.Items1"),
-            resources.GetString("cb_SelectIntervalUpdate.Items2")});
-            this.cb_SelectIntervalUpdate.Name = "cb_SelectIntervalUpdate";
-            this.cb_SelectIntervalUpdate.SelectedIndexChanged += new System.EventHandler(this.cb_SelectIntervalUpdate_SelectedIndexChanged);
-            // 
             // btnStopTImer
             // 
             resources.ApplyResources(this.btnStopTImer, "btnStopTImer");
@@ -224,15 +215,37 @@
             this.btn_StartClockTimer.UseVisualStyleBackColor = true;
             this.btn_StartClockTimer.Click += new System.EventHandler(this.btn_StartClockTimer_Click);
             // 
+            // numeric_SelectSecondInterval
+            // 
+            resources.ApplyResources(this.numeric_SelectSecondInterval, "numeric_SelectSecondInterval");
+            this.numeric_SelectSecondInterval.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_SelectSecondInterval.Name = "numeric_SelectSecondInterval";
+            this.numeric_SelectSecondInterval.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_SelectSecondInterval.ValueChanged += new System.EventHandler(this.numeric_SelectSecondInterval_ValueChanged);
+            // 
+            // lab_SelectSecondIntervalTime
+            // 
+            resources.ApplyResources(this.lab_SelectSecondIntervalTime, "lab_SelectSecondIntervalTime");
+            this.lab_SelectSecondIntervalTime.Name = "lab_SelectSecondIntervalTime";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lab_SelectSecondIntervalTime);
+            this.Controls.Add(this.numeric_SelectSecondInterval);
             this.Controls.Add(this.btn_StopClockTimer);
             this.Controls.Add(this.btn_StartClockTimer);
             this.Controls.Add(this.btnStopTImer);
             this.Controls.Add(this.btnStartTImer);
-            this.Controls.Add(this.cb_SelectIntervalUpdate);
             this.Controls.Add(this.lab_NewCityName);
             this.Controls.Add(this.lab_NewCItyLargeTime);
             this.Controls.Add(this.Lab_VladivostokName);
@@ -253,6 +266,7 @@
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_SelectSecondInterval)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,11 +292,12 @@
         private System.Windows.Forms.Label lab_VladovostokLagreTime;
         private System.Windows.Forms.Label lab_NewCityName;
         private System.Windows.Forms.Label lab_NewCItyLargeTime;
-        private System.Windows.Forms.ComboBox cb_SelectIntervalUpdate;
         private System.Windows.Forms.Button btnStopTImer;
         private System.Windows.Forms.Button btnStartTImer;
         private System.Windows.Forms.Button btn_StopClockTimer;
         private System.Windows.Forms.Button btn_StartClockTimer;
+        private System.Windows.Forms.NumericUpDown numeric_SelectSecondInterval;
+        private System.Windows.Forms.Label lab_SelectSecondIntervalTime;
     }
 }
 

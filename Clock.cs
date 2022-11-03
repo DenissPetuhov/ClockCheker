@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Forms;
-using System.Threading;
-using System.Windows.Forms;
 using Timer = System.Windows.Forms.Timer;
 
 namespace ClockCheker
@@ -11,14 +8,20 @@ namespace ClockCheker
 
     internal class Clock
     {
+        private static int secondInt = 1000;
+
         Timer timer = new Timer()
         {
-            Interval = 1000,
+            Interval = secondInt,
             Enabled = true
         };
+
         private TimeSpan timeNow = DateTime.Now.TimeOfDay;
+
         public delegate void TimeHAndler();
+        
         public event TimeHAndler SeconTick;
+
         Dictionary<string, TimeSpan> Cities = new Dictionary<string, TimeSpan>();
 
         public Clock()
@@ -26,6 +29,10 @@ namespace ClockCheker
             timer.Tick += Tick;
         }
 
+        public void SetTimerInterval(int count)
+        {
+            timer.Interval = secondInt * count;
+        }
         private void Tick(object sender, EventArgs e)
         {
             timeNow = DateTime.Now.TimeOfDay;
@@ -34,8 +41,12 @@ namespace ClockCheker
 
         public TimeSpan GetTimeCityNow(string NameCity)
         {
-            TimeSpan CityTime = timeNow + Cities[NameCity];
-            return CityTime;
+            if(NameCity != null)
+            {
+                TimeSpan CityTime = timeNow + Cities[NameCity];
+                return CityTime;
+            }
+            return new TimeSpan(0,0,0);
 
         }
         public void AddCity(String NameSity, TimeSpan offsetTime)
