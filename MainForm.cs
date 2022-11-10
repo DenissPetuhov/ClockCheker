@@ -142,5 +142,21 @@ namespace ClockCheker
         {
             clock.SetTimerInterval(Convert.ToInt32(numeric_SelectSecondInterval.Value));
         }
+
+        private void HotKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.S)
+            {
+                clock.StartTimer();
+                defaultClock.StartTimer();
+
+            }
+            if (e.Control && e.KeyCode == Keys.C)
+            {
+                clock.StopTimer();
+                defaultClock.StopTimer();
+
+            }
+        }
     }
 }

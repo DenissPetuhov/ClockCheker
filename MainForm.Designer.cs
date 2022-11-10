@@ -65,8 +65,8 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.panel2);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // LargeNameApp
@@ -263,8 +263,10 @@
             this.Controls.Add(this.cb_CityList);
             this.Controls.Add(this.lab_MoscowLargeTime);
             this.Controls.Add(this.LargeNameApp);
+            this.KeyPreview = true;
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HotKeyDown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SelectSecondInterval)).EndInit();
             this.ResumeLayout(false);
