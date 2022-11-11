@@ -54,8 +54,17 @@
             this.btn_StartClockTimer = new System.Windows.Forms.Button();
             this.numeric_SelectSecondInterval = new System.Windows.Forms.NumericUpDown();
             this.lab_SelectSecondIntervalTime = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numeric_LondonInterval = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.numeric_VladivostocInterval = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.numeric_MoskowInterval = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SelectSecondInterval)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_LondonInterval)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_VladivostocInterval)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_MoskowInterval)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -236,10 +245,79 @@
             resources.ApplyResources(this.lab_SelectSecondIntervalTime, "lab_SelectSecondIntervalTime");
             this.lab_SelectSecondIntervalTime.Name = "lab_SelectSecondIntervalTime";
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // numeric_LondonInterval
+            // 
+            resources.ApplyResources(this.numeric_LondonInterval, "numeric_LondonInterval");
+            this.numeric_LondonInterval.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_LondonInterval.Name = "numeric_LondonInterval";
+            this.numeric_LondonInterval.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_LondonInterval.ValueChanged += new System.EventHandler(this.numeric_LondonInterval_ValueChanged);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // numeric_VladivostocInterval
+            // 
+            resources.ApplyResources(this.numeric_VladivostocInterval, "numeric_VladivostocInterval");
+            this.numeric_VladivostocInterval.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_VladivostocInterval.Name = "numeric_VladivostocInterval";
+            this.numeric_VladivostocInterval.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_VladivostocInterval.ValueChanged += new System.EventHandler(this.numeric_VladivostocInterval_ValueChanged);
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // numeric_MoskowInterval
+            // 
+            resources.ApplyResources(this.numeric_MoskowInterval, "numeric_MoskowInterval");
+            this.numeric_MoskowInterval.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_MoskowInterval.Name = "numeric_MoskowInterval";
+            this.numeric_MoskowInterval.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numeric_MoskowInterval.ValueChanged += new System.EventHandler(this.numeric_MoskowInterval_ValueChanged);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.numeric_MoskowInterval);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.numeric_VladivostocInterval);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.numeric_LondonInterval);
             this.Controls.Add(this.lab_SelectSecondIntervalTime);
             this.Controls.Add(this.numeric_SelectSecondInterval);
             this.Controls.Add(this.btn_StopClockTimer);
@@ -269,6 +347,9 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HotKeyDown);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numeric_SelectSecondInterval)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_LondonInterval)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_VladivostocInterval)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numeric_MoskowInterval)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,6 +381,12 @@
         private System.Windows.Forms.Button btn_StartClockTimer;
         private System.Windows.Forms.NumericUpDown numeric_SelectSecondInterval;
         private System.Windows.Forms.Label lab_SelectSecondIntervalTime;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NumericUpDown numeric_LondonInterval;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown numeric_VladivostocInterval;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown numeric_MoskowInterval;
     }
 }
 

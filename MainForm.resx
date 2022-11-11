@@ -162,7 +162,7 @@
     <value>Microsoft Sans Serif, 22pt, style=Bold</value>
   </data>
   <data name="LargeNameApp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 9</value>
+    <value>69, -1</value>
   </data>
   <data name="LargeNameApp.Size" type="System.Drawing.Size, System.Drawing">
     <value>254, 36</value>
@@ -183,7 +183,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LargeNameApp.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>28</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lab_MoscowLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -196,7 +196,7 @@
     <value>Microsoft Sans Serif, 72pt</value>
   </data>
   <data name="lab_MoscowLargeTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-14, 79</value>
+    <value>-16, 86</value>
   </data>
   <data name="lab_MoscowLargeTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>417, 108</value>
@@ -217,7 +217,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_MoscowLargeTime.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>27</value>
   </data>
   <data name="cb_CityList.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cb_CityList.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>26</value>
   </data>
   <data name="btn_AddCity.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 627</value>
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_AddCity.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>25</value>
   </data>
   <data name="cb_SetHours.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 16pt</value>
@@ -367,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cb_SetHours.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>20</value>
   </data>
   <data name="lab_Hours.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -397,7 +397,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_Hours.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>21</value>
   </data>
   <data name="lab_enterTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -430,7 +430,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_enterTime.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>22</value>
   </data>
   <data name="lab_enterCity.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -463,7 +463,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_enterCity.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>23</value>
   </data>
   <data name="tb_CityName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
@@ -490,7 +490,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tb_CityName.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>24</value>
   </data>
   <data name="btn_Complet.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
@@ -526,7 +526,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_Complet.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>19</value>
   </data>
   <data name="lab_MoscowName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -535,7 +535,7 @@
     <value>Microsoft Sans Serif, 22pt</value>
   </data>
   <data name="lab_MoscowName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 47</value>
+    <value>97, 53</value>
   </data>
   <data name="lab_MoscowName.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 36</value>
@@ -556,7 +556,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_MoscowName.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>18</value>
   </data>
   <data name="lab_LondonName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -568,7 +568,7 @@
     <value>NoControl</value>
   </data>
   <data name="lab_LondonName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 179</value>
+    <value>97, 175</value>
   </data>
   <data name="lab_LondonName.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 36</value>
@@ -589,7 +589,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_LondonName.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>16</value>
   </data>
   <data name="lab_LondonLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -625,7 +625,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_LondonLargeTime.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>17</value>
   </data>
   <data name="Lab_VladivostokName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -637,7 +637,7 @@
     <value>NoControl</value>
   </data>
   <data name="Lab_VladivostokName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 309</value>
+    <value>12, 309</value>
   </data>
   <data name="Lab_VladivostokName.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 36</value>
@@ -658,7 +658,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lab_VladivostokName.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>14</value>
   </data>
   <data name="lab_VladovostokLagreTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -694,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_VladovostokLagreTime.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>15</value>
   </data>
   <data name="lab_NewCityName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -727,7 +727,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_NewCityName.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>12</value>
   </data>
   <data name="lab_NewCItyLargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -763,7 +763,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_NewCItyLargeTime.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>13</value>
   </data>
   <data name="btnStopTImer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -790,7 +790,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStopTImer.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>10</value>
   </data>
   <data name="btnStartTImer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -817,16 +817,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStartTImer.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>11</value>
   </data>
   <data name="btn_StopClockTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_StopClockTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 48</value>
+    <value>16, 67</value>
   </data>
   <data name="btn_StopClockTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 35</value>
+    <value>75, 29</value>
   </data>
   <data name="btn_StopClockTimer.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -844,16 +844,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_StopClockTimer.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
   </data>
   <data name="btn_StartClockTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_StartClockTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 53</value>
+    <value>16, 38</value>
   </data>
   <data name="btn_StartClockTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 30</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_StartClockTimer.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -871,7 +871,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_StartClockTimer.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>9</value>
   </data>
   <data name="numeric_SelectSecondInterval.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
@@ -895,7 +895,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;numeric_SelectSecondInterval.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
   <data name="lab_SelectSecondIntervalTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -925,7 +925,178 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lab_SelectSecondIntervalTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 183</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Интервал:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numeric_LondonInterval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="numeric_LondonInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 180</value>
+  </data>
+  <data name="numeric_LondonInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="numeric_LondonInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;numeric_LondonInterval.Name" xml:space="preserve">
+    <value>numeric_LondonInterval</value>
+  </data>
+  <data name="&gt;&gt;numeric_LondonInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numeric_LondonInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numeric_LondonInterval.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 321</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Интервал:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numeric_VladivostocInterval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="numeric_VladivostocInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 318</value>
+  </data>
+  <data name="numeric_VladivostocInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="numeric_VladivostocInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;numeric_VladivostocInterval.Name" xml:space="preserve">
+    <value>numeric_VladivostocInterval</value>
+  </data>
+  <data name="&gt;&gt;numeric_VladivostocInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numeric_VladivostocInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numeric_VladivostocInterval.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 63</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Интервал:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="numeric_MoskowInterval.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="numeric_MoskowInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 60</value>
+  </data>
+  <data name="numeric_MoskowInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="numeric_MoskowInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;numeric_MoskowInterval.Name" xml:space="preserve">
+    <value>numeric_MoskowInterval</value>
+  </data>
+  <data name="&gt;&gt;numeric_MoskowInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numeric_MoskowInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numeric_MoskowInterval.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
